@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hello Image</string>
+    <string name="enter_name">Enter Your Name</string>
+</resources>
