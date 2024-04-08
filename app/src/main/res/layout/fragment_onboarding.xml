@@ -5,21 +5,21 @@
     android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.onboarding.OnboardingFragment">
+    tools:context=".view.onboarding.OnboardingFragment">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
-        android:layout_height="57dp"
-        android:text="Hello Image!"
+        android:layout_height="55dp"
+        android:text="Hello Image"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/enter_name_field"
         app:layout_constraintStart_toStartOf="@+id/enter_name_field" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/enter_name_field"
-        android:layout_width="308dp"
-        android:layout_height="78dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
         android:hint="@string/enter_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +30,7 @@
     <Button
         android:id="@+id/next_button"
         android:layout_width="0dp"
-        android:layout_height="47dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="40dp"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
